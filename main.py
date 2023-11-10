@@ -16,7 +16,7 @@ def run_shell_commands(commands: list, work_dir: str):
     return result
 
 async def execute_deployment_commands():
-    work_dir = "C:/Users/user/Desktop/app/production"  # Make sure this path is correct
+    work_dir = "project path"
     commands = [
         f'"{git_executable}" stash',
         f'"{git_executable}" pull',
